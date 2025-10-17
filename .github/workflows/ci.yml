@@ -39,5 +39,4 @@ jobs:
           verbose: true
         continue-on-error: true
       - run: |
-          apt-get install tree
-          tree /__w
+          find /__w

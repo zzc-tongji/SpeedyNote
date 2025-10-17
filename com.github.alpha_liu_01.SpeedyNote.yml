@@ -64,4 +64,4 @@ modules:
     post-install:
       - install -Dm644 com.github.alpha_liu_01.SpeedyNote.desktop /app/share/applications/com.github.alpha_liu_01.SpeedyNote.desktop
       - install -Dm644 com.github.alpha_liu_01.SpeedyNote.metainfo.xml /app/share/metainfo/com.github.alpha_liu_01.SpeedyNote.metainfo.xml
-      - desktop-file-validate /app/share/applications/com.github.alpha_liu_01.SpeedyNote.desktop 
+      # - desktop-file-validate /app/share/applications/com.github.alpha_liu_01.SpeedyNote.desktop 

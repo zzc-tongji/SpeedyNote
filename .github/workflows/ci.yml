@@ -37,3 +37,7 @@ jobs:
           cache-key: flatpak-builder-${{ github.sha }}
           arch: ${{ matrix.variant.arch }}
           verbose: true
+        continue-on-error: true
+      - run: |
+          sudo apt-get install tree
+          sudo tree /__w
